@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+void main()
+{
+    setlocale(LC_ALL, "portuguese");
+
+    char socio;
+    int idade;
+
+    printf("A pessoa é sócio do clube? s/n \n");
+    scanf("%c",&socio);
+
+    printf("qual a idade? \n");
+    scanf("%d",&idade);
+
+    if(socio== 's'){
+        if(idade >=18){
+            printf("pode entrar");
+        }
+        else{
+            printf("pessoa nao pode entrar");
+        }
+
+    }
+    else{
+        printf("nao é socio");
+    }
+}
