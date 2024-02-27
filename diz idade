@@ -1,0 +1,16 @@
+#include <locale.h>
+#include <stdlib.h>
+
+
+int main()
+{
+    int anoAtual;
+    int anoNascimento;
+    int idade;
+    
+    anoAtual = 2023;
+    anoNascimento = 2004;
+    
+    idade = anoAtual - anoNascimento;
+    printf("idade é: %i", idade);
+}
