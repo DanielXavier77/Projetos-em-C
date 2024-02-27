@@ -1,0 +1,25 @@
+#include "stdio.h"
+#include "conio.h"
+
+    int main ()
+    //declaração de variaveis
+    float n1,n2,m;
+{
+    // entrada de dados
+        printf("digite a nota1:");
+    scanf("%f",&n1);
+        printf("digite a nota2 :");
+    scanf("%f",&n2);
+    //processamento
+    m=(n1+n2)/2;
+    //saída
+        printf("a media e:%.2f,\n",m);
+    //condicionais 
+    if(m>=5){
+        printf("aluno aprovado");
+    }
+    else{
+        printf("aluno reprovado");
+    }
+    return 0;
+}
